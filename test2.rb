@@ -1,6 +1,15 @@
 
 str = "haystack?"
 
+punct = /[[:punct:]]/.match(str)
+
+if punct 
+	puts 'yes punct'
+else
+	puts 'no punct'
+end
+
+
 def getPunct(word)
 	punct = /[[:punct:]]/.match(word)
 
@@ -9,9 +18,11 @@ def getPunct(word)
 	return theChar
 end
 
-if(getPunct(str))
-	puts 'hi'
-end
+
+
+#if(getPunct(str))
+#	puts 'hi'
+#end
 
 
 #this is important because it proves that you can get a string

@@ -1,6 +1,9 @@
+
 require 'minitest/spec'
 require 'minitest/autorun'
 require './exercise'
+
+
 
 describe Exercise do
   describe "#marklar" do
@@ -27,3 +30,4 @@ describe Exercise do
     end
   end
 end
+
